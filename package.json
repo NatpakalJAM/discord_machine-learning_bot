@@ -21,6 +21,10 @@
   "homepage": "https://github.com/NatpakalJAM/discord_machine-learning_bot#readme",
   "dependencies": {
     "grpc": "^1.19.0",
-    "lodash": "^4.16.0"
+    "lodash": "^4.16.0",
+    "axios": "^0.17.1",
+    "discord.js": "^11.4.2",
+    "youtube-dl": "^1.12.2",
+    "ytdl-core": "^0.18.5"
   }
 }

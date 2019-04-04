@@ -7,7 +7,7 @@ message ChatBotRequest{
 }
  
 message ChatBotResponse{
-    repeated string response = 1;
+    string response = 1;
 }
 
 service ChatbotService {
