@@ -20,6 +20,13 @@ chatbot = ChatBot(
     # read_only=True
 )
 
+chatbot.set_trainer(ChatterBotCorpusTrainer)
+chatbot.train(
+    './data/thai/',
+    './data/english/',
+    # './data/japanese/'
+)
+
 
 class ChatbotService(chatbot_pb2_grpc.ChatbotServiceServicer):
 
