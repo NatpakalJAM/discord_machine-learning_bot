@@ -1,6 +1,8 @@
 
 # Discord Machine-Learning Bot
 
+> This is machine learning, conversational dialog engine for Discord chat bots.
+
 ## Setup environment
 
 1. Install [Python](https://www.python.org/downloads/) and [Node.js](https://nodejs.org/en/download/)
