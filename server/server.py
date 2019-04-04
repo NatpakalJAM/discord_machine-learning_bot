@@ -25,7 +25,7 @@ chatbot = ChatBot(
 
 chatbot.set_trainer(ChatterBotCorpusTrainer)
 chatbot.train(
-    './server/data/thai/'
+    './server/data/thai/',
     './server/data/english/',
     './server/data/japanese/'
 )
