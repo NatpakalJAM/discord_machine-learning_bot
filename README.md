@@ -23,7 +23,6 @@ $ npm install
 4. Run ChatBot server
 
 ```
-
 $ python server/server.py
 ```
 
