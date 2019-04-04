@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='chatbot',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\rchatbot.proto\x12\x07\x63hatbot\"!\n\x0e\x43hatBotRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"#\n\x0f\x43hatBotResponse\x12\x10\n\x08response\x18\x01 \x03(\t2S\n\x0e\x43hatbotService\x12\x41\n\nGetMessage\x12\x17.chatbot.ChatBotRequest\x1a\x18.chatbot.ChatBotResponse\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\rchatbot.proto\x12\x07\x63hatbot\"!\n\x0e\x43hatBotRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"#\n\x0f\x43hatBotResponse\x12\x10\n\x08response\x18\x01 \x01(\t2S\n\x0e\x43hatbotService\x12\x41\n\nGetMessage\x12\x17.chatbot.ChatBotRequest\x1a\x18.chatbot.ChatBotResponse\"\x00\x62\x06proto3')
 )
 
 
@@ -65,8 +65,8 @@ _CHATBOTRESPONSE = _descriptor.Descriptor(
   fields=[
     _descriptor.FieldDescriptor(
       name='response', full_name='chatbot.ChatBotResponse.response', index=0,
-      number=1, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
