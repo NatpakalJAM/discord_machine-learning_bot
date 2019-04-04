@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package chatbot;
+ 
+message ChatBotRequest{
+    string message = 1;
+}
+ 
+message ChatBotResponse{
+    repeated string response = 1;
+}
+
+service ChatbotService {
+    rpc GetMessage(ChatBotRequest) returns (ChatBotResponse) {}
+}

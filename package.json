@@ -1,0 +1,26 @@
+{
+  "name": "discord_machine-learning_bot",
+  "version": "1.0.0",
+  "description": "```\r python -m grpc_tools.protoc --proto_path=. ./chatbot.proto --python_out=. --grpc_python_out=.\r ```",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatpakalJAM/discord_machine-learning_bot.git"
+  },
+  "keywords": [
+    "discord_machine-learning_bot"
+  ],
+  "author": "NatpakalJAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatpakalJAM/discord_machine-learning_bot/issues"
+  },
+  "homepage": "https://github.com/NatpakalJAM/discord_machine-learning_bot#readme",
+  "dependencies": {
+    "grpc": "^1.19.0",
+    "lodash": "^4.16.0"
+  }
+}
