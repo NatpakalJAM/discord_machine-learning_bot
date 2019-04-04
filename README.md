@@ -11,6 +11,8 @@
 
 ```
 $ pip install -r requirements.txt
+or
+$ pip install -r requirements.txt --no-cache-dir
 $ python -m grpc_tools.protoc --proto_path=. ./chatbot.proto --python_out=./server/ --grpc_python_out=./server/
 ```
 
