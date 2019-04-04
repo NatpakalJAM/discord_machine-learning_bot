@@ -1,3 +1,4 @@
 /server/__pycache__
 /node_modules
-/server/*.sqlite3
+/client/config.json
+/*.sqlite3
