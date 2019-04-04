@@ -10,6 +10,7 @@ grpcio-tools==1.19.0
 grpcio==1.19.0            # via grpcio-tools
 protobuf==3.7.1           # via grpcio, grpcio-tools
 six==1.10.0               # via grpcio, protobuf
+ChatterBot==1.0.5         # via ChatterBot
 
 # The following packages are commented out because they are
 # considered to be unsafe in a requirements file:
