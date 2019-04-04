@@ -10,8 +10,8 @@
 2. Install python package
 
 ```
-$ python3 -m pip install -r requirements.txt
-$ python3 -m grpc_tools.protoc --proto_path=. ./chatbot.proto --python_out=./server/ --grpc_python_out=./server/
+$ pip install -r requirements.txt
+$ python -m grpc_tools.protoc --proto_path=. ./chatbot.proto --python_out=./server/ --grpc_python_out=./server/
 ```
 
 3. Install Node.js package
