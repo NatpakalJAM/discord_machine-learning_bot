@@ -20,15 +20,15 @@ chatbot = ChatBot(
     'ChatBot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     database='ChatBot.sqlite3',
-    # read_only=True
+    read_only=True
 )
 
 chatbot.set_trainer(ChatterBotCorpusTrainer)
-chatbot.train(
-    './server/data/thai/',
-    './server/data/english/',
-    './server/data/japanese/'
-)
+# chatbot.train(
+#     './server/data/thai/',
+#     './server/data/english/',
+#     './server/data/japanese/'
+# )
 
 
 class ChatbotService(chatbot_pb2_grpc.ChatbotServiceServicer):
@@ -36,7 +36,7 @@ class ChatbotService(chatbot_pb2_grpc.ChatbotServiceServicer):
     def GetMessage(self, request, context):
         user_input = request.message
         bot_response = chatbot.get_response(user_input)
-        return chatbot_pb2.ChatBotResponse(response='%s' % bot_response)
+        # return chatbot_pb2.ChatBotResponse(response='%s' % bot_response)
 
 
 def serve():
