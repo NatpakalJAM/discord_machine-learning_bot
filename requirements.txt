@@ -5,13 +5,15 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 enum34==1.1.6             # via grpcio
-futures==3.0.5            # via grpcio
+futures==3.2.0            # via grpcio
 grpcio-tools==1.19.0
 grpcio==1.19.0            # via grpcio-tools
-protobuf==3.7.1           # via grpcio, grpcio-tools
-six==1.10.0               # via grpcio, protobuf
+protobuf3==0.2.1          # via grpcio, grpcio-tools
+six==1.12.0               # via grpcio, protobuf
 ChatterBot==1.0.5         # via ChatterBot
+chatterbot-corpus==1.2.0
+chatterbot-weather==0.1.1
 
 # The following packages are commented out because they are
 # considered to be unsafe in a requirements file:
-# setuptools                # via protobuf
+setuptools                # via protobuf
