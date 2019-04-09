@@ -23,13 +23,13 @@ chatbot = ChatBot(
     read_only=True
 )
 
-trainer = ListTrainer(chatbot)
+# trainer = ListTrainer(chatbot)
 
-trainer.train(
+# trainer.train(
     # './server/data/thai/',
     # './server/data/english/',
     # './server/data/japanese/',
-)
+# )
 
 
 class ChatbotService(chatbot_pb2_grpc.ChatbotServiceServicer):
