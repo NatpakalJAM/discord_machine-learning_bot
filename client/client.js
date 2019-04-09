@@ -31,7 +31,7 @@ bot.on('message', message => {
         if (err) {
             return console.error(err)
         }
-        message.channel.send(res.response)
+        // message.channel.send(res.response)
     })
 
 })

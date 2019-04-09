@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from concurrent import futures
+from concurrent.futures import futures
 import time
 import logging
 
@@ -26,7 +26,7 @@ chatbot = ChatBot(
 trainer = ListTrainer(chatbot)
 
 trainer.train(
-    './server/data/thai/',
+    # './server/data/thai/',
     # './server/data/english/',
     # './server/data/japanese/',
 )
