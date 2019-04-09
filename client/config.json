@@ -1,4 +1,4 @@
 {
-    "TOKEN": "<YOUR_BOT_TOKEN_HERE>",
-    "watching": "<YOUR_BOT_NAME_HERE>"
+    "TOKEN": "YOUR_BOT_TOKEN_HERE",
+    "watching": "YOUR_BOT_NAME_HERE"
 }
