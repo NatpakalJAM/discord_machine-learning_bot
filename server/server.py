@@ -11,7 +11,7 @@ import chatbot_pb2
 import chatbot_pb2_grpc
 
 from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
+from chatterbot.trainers import ListTrainer
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 
@@ -23,11 +23,12 @@ chatbot = ChatBot(
     read_only=True
 )
 
-chatbot.set_trainer(ChatterBotCorpusTrainer)
-chatbot.train(
+trainer = ListTrainer(chatbot)
+
+trainer.train(
     './server/data/thai/',
-    './server/data/english/',
-    './server/data/japanese/',
+    # './server/data/english/',
+    # './server/data/japanese/',
 )
 
 

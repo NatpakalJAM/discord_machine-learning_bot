@@ -1,4 +1,8 @@
+/.vscode
+/.idea
+
 /server/__pycache__
 /node_modules
 /client/config.json
 /*.sqlite3*
+/sentence_tokenizer.pickle
