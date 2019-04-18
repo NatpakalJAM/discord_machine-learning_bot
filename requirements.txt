@@ -31,7 +31,7 @@ requests==2.21.0          # via spacy
 singledispatch==3.4.0.3   # via nltk
 six==1.12.0               # via grpcio, nltk, pip-tools, protobuf, python-dateutil, singledispatch
 spacy==2.1.3              # via chatterbot
-sqlalchemy==1.2.18        # via chatterbot
+SQLAlchemy>=1.3.0         # via chatterbot
 srsly==0.0.5              # via spacy, thinc
 thinc==7.0.4              # via spacy
 tqdm==4.31.1              # via thinc
