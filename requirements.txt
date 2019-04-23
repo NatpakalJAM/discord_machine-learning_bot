@@ -35,7 +35,7 @@ SQLAlchemy>=1.3.0         # via chatterbot
 srsly==0.0.5              # via spacy, thinc
 thinc==7.0.4              # via spacy
 tqdm==4.31.1              # via thinc
-urllib3==1.24.1           # via requests
+urllib3>=1.24.1           # via requests
 wasabi==0.2.1             # via spacy, thinc
 
 # The following packages are considered to be unsafe in a requirements file:
