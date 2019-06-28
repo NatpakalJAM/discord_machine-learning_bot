@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/NatpakalJAM/discord_machine-learning_bot#readme",
   "dependencies": {
-    "grpc": "^1.19.0",
-    "lodash": "^4.16.0",
     "axios": "^0.17.1",
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.5.1",
+    "grpc": "^1.21.1",
+    "lodash": "^4.16.0"
   }
 }
