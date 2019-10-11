@@ -16,7 +16,7 @@ idna==2.8                 # via requests
 jsonschema==2.6.0         # via spacy
 mathparse==0.1.2          # via chatterbot
 murmurhash==1.0.2         # via spacy, thinc
-nltk==3.4                 # via chatterbot
+nltk>=3.4.5               # via chatterbot
 numpy==1.16.2             # via blis, spacy, thinc
 pint==0.9                 # via chatterbot
 pip-tools==3.6.0
