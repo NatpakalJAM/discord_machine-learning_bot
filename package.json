@@ -22,7 +22,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "discord.js": "^11.5.1",
-    "grpc": "^1.21.1",
+    "grpc": "^1.24.9",
     "lodash": "^4.17.13"
   }
 }
