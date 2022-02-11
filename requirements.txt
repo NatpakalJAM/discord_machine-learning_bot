@@ -4,39 +4,102 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-blis==0.2.4               # via spacy, thinc
-certifi==2019.3.9         # via requests
-chardet==3.0.4            # via requests
+blis==0.2.4
+    # via
+    #   spacy
+    #   thinc
+certifi==2019.3.9
+    # via requests
+chardet==3.0.4
+    # via requests
 chatterbot==1.0.5
-click==7.0                # via pip-tools
-cymem==2.0.2              # via preshed, spacy, thinc
-grpcio-tools==1.19.0
+    # via -r requirements.in
+click==7.0
+    # via
+    #   nltk
+    #   pip-tools
+cymem==2.0.2
+    # via
+    #   preshed
+    #   spacy
+    #   thinc
 grpcio==1.19.0
-idna==2.8                 # via requests
-jsonschema==2.6.0         # via spacy
-mathparse==0.1.2          # via chatterbot
-murmurhash==1.0.2         # via spacy, thinc
-nltk>=3.4.5               # via chatterbot
-numpy==1.16.2             # via blis, spacy, thinc
-pint==0.9                 # via chatterbot
+    # via
+    #   -r requirements.in
+    #   grpcio-tools
+grpcio-tools==1.19.0
+    # via -r requirements.in
+idna==2.8
+    # via requests
+joblib==1.1.0
+    # via nltk
+jsonschema==2.6.0
+    # via spacy
+mathparse==0.1.2
+    # via chatterbot
+murmurhash==1.0.2
+    # via
+    #   spacy
+    #   thinc
+nltk==3.7
+    # via chatterbot
+numpy==1.16.2
+    # via
+    #   blis
+    #   spacy
+    #   thinc
+pint==0.9
+    # via chatterbot
 pip-tools==3.6.0
-plac==0.9.6               # via spacy, thinc
-preshed==2.0.1            # via spacy, thinc
-protobuf==3.7.1           # via grpcio-tools
-pymongo==3.7.2            # via chatterbot
-python-dateutil==2.7.5    # via chatterbot
-pytz==2018.9              # via chatterbot
-pyyaml==5.1               # via chatterbot
-requests==2.21.0          # via spacy
-singledispatch==3.4.0.3   # via nltk
-six==1.12.0               # via grpcio, nltk, pip-tools, protobuf, python-dateutil, singledispatch
-spacy==2.1.3              # via chatterbot
-SQLAlchemy>=1.3.0         # via chatterbot
-srsly==0.0.5              # via spacy, thinc
-thinc==7.0.4              # via spacy
-tqdm==4.31.1              # via thinc
-urllib3>=1.24.1           # via requests
-wasabi==0.2.1             # via spacy, thinc
+    # via -r requirements.in
+plac==0.9.6
+    # via
+    #   spacy
+    #   thinc
+preshed==2.0.1
+    # via
+    #   spacy
+    #   thinc
+protobuf==3.15.0
+    # via grpcio-tools
+pymongo==3.7.2
+    # via chatterbot
+python-dateutil==2.7.5
+    # via chatterbot
+pytz==2018.9
+    # via chatterbot
+pyyaml==5.1
+    # via chatterbot
+regex==2022.1.18
+    # via nltk
+requests==2.21.0
+    # via spacy
+six==1.12.0
+    # via
+    #   grpcio
+    #   pip-tools
+    #   protobuf
+    #   python-dateutil
+spacy==2.1.3
+    # via chatterbot
+sqlalchemy==1.2.19
+    # via chatterbot
+srsly==0.0.5
+    # via
+    #   spacy
+    #   thinc
+thinc==7.0.4
+    # via spacy
+tqdm==4.31.1
+    # via
+    #   nltk
+    #   thinc
+urllib3==1.24.3
+    # via requests
+wasabi==0.2.1
+    # via
+    #   spacy
+    #   thinc
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
